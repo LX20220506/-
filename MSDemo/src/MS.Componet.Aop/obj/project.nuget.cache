@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "7Yg5jSvP5JlYJbA8LnUTGI1VafFScuMYVoDUo01SQ3pRSBDQMn6cMT/1VzUMG8TNPGDh5cu9BTWVoxUMWXWxHw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\1011751\\Desktop\\項目架構\\MSDemo\\src\\MS.Componet.Aop\\MS.Component.Aop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\1011751\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.1\\microsoft.aspnetcore.cryptography.internal.3.1.1.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.1\\microsoft.aspnetcore.cryptography.keyderivation.3.1.1.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.configuration\\3.0.0\\microsoft.extensions.configuration.3.0.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.0.0\\microsoft.extensions.configuration.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.0.0\\microsoft.extensions.configuration.binder.3.0.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.0.0\\microsoft.extensions.dependencyinjection.3.0.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.0\\microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.logging\\3.0.0\\microsoft.extensions.logging.3.0.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.0\\microsoft.extensions.logging.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\nlog\\4.6.7\\nlog.4.6.7.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\nlog.extensions.logging\\1.6.0\\nlog.extensions.logging.1.6.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\nlog.web.aspnetcore\\4.9.0\\nlog.web.aspnetcore.4.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

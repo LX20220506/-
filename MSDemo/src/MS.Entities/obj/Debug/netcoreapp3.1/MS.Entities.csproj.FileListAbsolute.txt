@@ -1,0 +1,10 @@
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Entities\bin\Debug\netcoreapp3.1\MS.Entities.deps.json
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Entities\bin\Debug\netcoreapp3.1\MS.Entities.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Entities\bin\Debug\netcoreapp3.1\MS.Entities.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Entities\obj\Debug\netcoreapp3.1\MS.Entities.csproj.AssemblyReference.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Entities\obj\Debug\netcoreapp3.1\MS.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Entities\obj\Debug\netcoreapp3.1\MS.Entities.AssemblyInfoInputs.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Entities\obj\Debug\netcoreapp3.1\MS.Entities.AssemblyInfo.cs
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Entities\obj\Debug\netcoreapp3.1\MS.Entities.csproj.CoreCompileInputs.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Entities\obj\Debug\netcoreapp3.1\MS.Entities.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Entities\obj\Debug\netcoreapp3.1\MS.Entities.pdb

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1" />
+		<PackageReference Include="MySql.Data" Version="8.0.19" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <ProjectReference Include="..\MS.Componet.Aop\MS.Component.Aop.csproj" />
+	  <ProjectReference Include="..\MS.Services\MS.Services.csproj" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <Content Update="NLog.config">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+
+</Project>

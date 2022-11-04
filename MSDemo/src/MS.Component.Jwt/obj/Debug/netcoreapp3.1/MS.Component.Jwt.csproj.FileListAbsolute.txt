@@ -1,0 +1,17 @@
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\bin\Debug\netcoreapp3.1\MS.Component.Jwt.deps.json
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\bin\Debug\netcoreapp3.1\MS.Component.Jwt.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\bin\Debug\netcoreapp3.1\MS.Component.Jwt.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\bin\Debug\netcoreapp3.1\MS.Common.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\bin\Debug\netcoreapp3.1\MS.Entities.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\bin\Debug\netcoreapp3.1\MS.WebCore.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\bin\Debug\netcoreapp3.1\MS.Entities.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\bin\Debug\netcoreapp3.1\MS.WebCore.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\bin\Debug\netcoreapp3.1\MS.Common.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\obj\Debug\netcoreapp3.1\MS.Component.Jwt.csproj.AssemblyReference.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\obj\Debug\netcoreapp3.1\MS.Component.Jwt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\obj\Debug\netcoreapp3.1\MS.Component.Jwt.AssemblyInfoInputs.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\obj\Debug\netcoreapp3.1\MS.Component.Jwt.AssemblyInfo.cs
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\obj\Debug\netcoreapp3.1\MS.Component.Jwt.csproj.CoreCompileInputs.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\obj\Debug\netcoreapp3.1\MS.Component.Jwt.csproj.CopyComplete
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\obj\Debug\netcoreapp3.1\MS.Component.Jwt.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Component.Jwt\obj\Debug\netcoreapp3.1\MS.Component.Jwt.pdb

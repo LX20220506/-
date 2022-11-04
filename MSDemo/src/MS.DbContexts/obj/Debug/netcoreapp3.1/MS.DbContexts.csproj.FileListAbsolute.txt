@@ -1,0 +1,15 @@
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.DbContexts\bin\Debug\netcoreapp3.1\MS.DbContexts.deps.json
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.DbContexts\bin\Debug\netcoreapp3.1\MS.DbContexts.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.DbContexts\bin\Debug\netcoreapp3.1\MS.DbContexts.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.DbContexts\bin\Debug\netcoreapp3.1\MS.Entities.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.DbContexts\bin\Debug\netcoreapp3.1\MS.UnitOfWork.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.DbContexts\bin\Debug\netcoreapp3.1\MS.Entities.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.DbContexts\bin\Debug\netcoreapp3.1\MS.UnitOfWork.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.DbContexts\obj\Debug\netcoreapp3.1\MS.DbContexts.csproj.AssemblyReference.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.DbContexts\obj\Debug\netcoreapp3.1\MS.DbContexts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.DbContexts\obj\Debug\netcoreapp3.1\MS.DbContexts.AssemblyInfoInputs.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.DbContexts\obj\Debug\netcoreapp3.1\MS.DbContexts.AssemblyInfo.cs
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.DbContexts\obj\Debug\netcoreapp3.1\MS.DbContexts.csproj.CoreCompileInputs.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.DbContexts\obj\Debug\netcoreapp3.1\MS.DbContexts.csproj.CopyComplete
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.DbContexts\obj\Debug\netcoreapp3.1\MS.DbContexts.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.DbContexts\obj\Debug\netcoreapp3.1\MS.DbContexts.pdb

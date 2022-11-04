@@ -1,0 +1,10 @@
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Common\bin\Debug\netcoreapp3.1\MS.Common.deps.json
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Common\bin\Debug\netcoreapp3.1\MS.Common.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Common\bin\Debug\netcoreapp3.1\MS.Common.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Common\obj\Debug\netcoreapp3.1\MS.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Common\obj\Debug\netcoreapp3.1\MS.Common.AssemblyInfoInputs.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Common\obj\Debug\netcoreapp3.1\MS.Common.AssemblyInfo.cs
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Common\obj\Debug\netcoreapp3.1\MS.Common.csproj.CoreCompileInputs.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Common\obj\Debug\netcoreapp3.1\MS.Common.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Common\obj\Debug\netcoreapp3.1\MS.Common.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Common\obj\Debug\netcoreapp3.1\MS.Common.csproj.AssemblyReference.cache

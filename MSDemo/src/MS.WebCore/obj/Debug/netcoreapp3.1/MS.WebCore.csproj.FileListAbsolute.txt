@@ -1,0 +1,13 @@
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.WebCore\bin\Debug\netcoreapp3.1\MS.WebCore.deps.json
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.WebCore\bin\Debug\netcoreapp3.1\MS.WebCore.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.WebCore\bin\Debug\netcoreapp3.1\MS.WebCore.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.WebCore\bin\Debug\netcoreapp3.1\MS.Common.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.WebCore\bin\Debug\netcoreapp3.1\MS.Common.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.WebCore\obj\Debug\netcoreapp3.1\MS.WebCore.csproj.AssemblyReference.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.WebCore\obj\Debug\netcoreapp3.1\MS.WebCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.WebCore\obj\Debug\netcoreapp3.1\MS.WebCore.AssemblyInfoInputs.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.WebCore\obj\Debug\netcoreapp3.1\MS.WebCore.AssemblyInfo.cs
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.WebCore\obj\Debug\netcoreapp3.1\MS.WebCore.csproj.CoreCompileInputs.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.WebCore\obj\Debug\netcoreapp3.1\MS.WebCore.csproj.CopyComplete
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.WebCore\obj\Debug\netcoreapp3.1\MS.WebCore.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.WebCore\obj\Debug\netcoreapp3.1\MS.WebCore.pdb

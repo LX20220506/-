@@ -1,0 +1,10 @@
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.UnitOfWork\bin\Debug\netcoreapp3.1\MS.UnitOfWork.deps.json
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.UnitOfWork\bin\Debug\netcoreapp3.1\MS.UnitOfWork.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.UnitOfWork\bin\Debug\netcoreapp3.1\MS.UnitOfWork.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.UnitOfWork\obj\Debug\netcoreapp3.1\MS.UnitOfWork.csproj.AssemblyReference.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.UnitOfWork\obj\Debug\netcoreapp3.1\MS.UnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.UnitOfWork\obj\Debug\netcoreapp3.1\MS.UnitOfWork.AssemblyInfoInputs.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.UnitOfWork\obj\Debug\netcoreapp3.1\MS.UnitOfWork.AssemblyInfo.cs
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.UnitOfWork\obj\Debug\netcoreapp3.1\MS.UnitOfWork.csproj.CoreCompileInputs.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.UnitOfWork\obj\Debug\netcoreapp3.1\MS.UnitOfWork.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.UnitOfWork\obj\Debug\netcoreapp3.1\MS.UnitOfWork.pdb

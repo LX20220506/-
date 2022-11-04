@@ -1,0 +1,15 @@
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Componet.Aop\bin\Debug\netcoreapp3.1\MS.Component.Aop.deps.json
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Componet.Aop\bin\Debug\netcoreapp3.1\MS.Component.Aop.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Componet.Aop\bin\Debug\netcoreapp3.1\MS.Component.Aop.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Componet.Aop\bin\Debug\netcoreapp3.1\MS.Common.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Componet.Aop\bin\Debug\netcoreapp3.1\MS.WebCore.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Componet.Aop\bin\Debug\netcoreapp3.1\MS.WebCore.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Componet.Aop\bin\Debug\netcoreapp3.1\MS.Common.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Componet.Aop\obj\Debug\netcoreapp3.1\MS.Component.Aop.csproj.AssemblyReference.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Componet.Aop\obj\Debug\netcoreapp3.1\MS.Component.Aop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Componet.Aop\obj\Debug\netcoreapp3.1\MS.Component.Aop.AssemblyInfoInputs.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Componet.Aop\obj\Debug\netcoreapp3.1\MS.Component.Aop.AssemblyInfo.cs
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Componet.Aop\obj\Debug\netcoreapp3.1\MS.Component.Aop.csproj.CoreCompileInputs.cache
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Componet.Aop\obj\Debug\netcoreapp3.1\MS.Component.Aop.csproj.CopyComplete
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Componet.Aop\obj\Debug\netcoreapp3.1\MS.Component.Aop.dll
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Componet.Aop\obj\Debug\netcoreapp3.1\MS.Component.Aop.pdb
