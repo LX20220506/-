@@ -28,7 +28,7 @@ namespace MS.UnitOfWork
         /// <typeparam name="TEntity"></typeparam>
         /// <param name="hasCustomRepository">如有自定义仓储设为True</param>
         /// <returns></returns>
-        IRepository<TEntity> GetReposirory<TEntity>(bool hasCustomRepository=false) where TEntity:class;
+        IRepository<TEntity> GetRepository<TEntity>(bool hasCustomRepository=false) where TEntity:class;
 
 
         /// <summary>

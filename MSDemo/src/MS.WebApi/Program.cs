@@ -1,3 +1,4 @@
+using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -42,12 +43,12 @@ namespace MS.WebApi
 
                     //for test -start
                     //用于查看彩色控制台样式，以及日志等级过滤
-                    logger.Trace("Test For Trace");
-                    logger.Debug("Test For Debug");
-                    logger.Info("Test For Info");
-                    logger.Warn("Test For Warn");
-                    logger.Error("Test For Error");
-                    logger.Fatal("Test For Fatal");
+                    //logger.Trace("Test For Trace");
+                    //logger.Debug("Test For Debug");
+                    //logger.Info("Test For Info");
+                    //logger.Warn("Test For Warn");
+                    //logger.Error("Test For Error");
+                    //logger.Fatal("Test For Fatal");
                     //for test -end
 
                 }
@@ -62,11 +63,12 @@ namespace MS.WebApi
             }
         }
 
-            public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                }).AddNlogService();
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+        .UseServiceProviderFactory(new AutofacServiceProviderFactory())// 替代autofac作为DI容器
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+            }).AddNlogService();
     }
 }

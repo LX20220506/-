@@ -1,5 +1,8 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
+using Microsoft.VisualBasic.FileIO;
+using MS.Common.Extensions;
 using MS.Common.IDCode;
 using System;
 using System.Collections.Generic;
@@ -52,6 +55,8 @@ namespace MS.WebCore
             // 绑定appsetting中的SiteSetting
             // 直接将SiteSetting类注入到了IServiceCollection中，后续可以直接使用
             services.Configure<SiteSetting>(configuration.GetSection(nameof(SiteSetting)));
+            //var siteSetting = configuration.GetSection(nameof(SiteSetting));
+            //services.AddSingleton(siteSetting.Get<SiteSetting>());
 
             #region 单例雪花算法
             string workIdStr = configuration.GetSection("SiteSetting:WorkerId").Value;

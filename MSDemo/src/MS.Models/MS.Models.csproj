@@ -1,12 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\MS.Component.Jwt\MS.Component.Jwt.csproj" />
-    <ProjectReference Include="..\MS.DbContexts\MS.DbContexts.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\MS.Component.Jwt\MS.Component.Jwt.csproj" />
+		<ProjectReference Include="..\MS.DbContexts\MS.DbContexts.csproj" />
+	</ItemGroup>
 
+	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+	</ItemGroup>
 </Project>

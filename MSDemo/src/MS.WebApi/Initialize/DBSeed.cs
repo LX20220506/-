@@ -50,10 +50,10 @@ namespace MS.WebApi.Initialize
                     CreateTime = DateTime.Now,
                 };
                 // 创建了一个超级管理员角色，创建了一个超级管理员用户admin(密码同账号)
-                unitOfWork.GetReposirory<User>().Inster(rootUser);
-                unitOfWork.GetReposirory<Role>().Inster(rootRole);
+                unitOfWork.GetRepository<User>().Inster(rootUser);
+                unitOfWork.GetRepository<Role>().Inster(rootRole);
 
-                unitOfWork.GetReposirory<UserLogin>().Inster(new UserLogin()
+                unitOfWork.GetRepository<UserLogin>().Inster(new UserLogin()
                 {
                     UserId = rootUserId,
                     Account = rootUser.Account,

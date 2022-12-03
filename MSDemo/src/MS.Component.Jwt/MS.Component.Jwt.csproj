@@ -9,4 +9,8 @@
     <ProjectReference Include="..\MS.WebCore\MS.WebCore.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.1" />
+	</ItemGroup>
+
 </Project>

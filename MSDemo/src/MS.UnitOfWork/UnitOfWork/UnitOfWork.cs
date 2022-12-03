@@ -46,7 +46,7 @@ namespace MS.UnitOfWork
         /// <typeparam name="TEntity"></typeparam>
         /// <param name="hasCustomRepository"></param>
         /// <returns></returns>
-        public IRepository<TEntity> GetReposirory<TEntity>(bool hasCustomRepository = false) where TEntity : class
+        public IRepository<TEntity> GetRepository<TEntity>(bool hasCustomRepository = false) where TEntity : class
         {
             if (_repositories==null)
             {
@@ -83,7 +83,9 @@ namespace MS.UnitOfWork
             => _dbContext.SaveChanges();
 
         public async Task<int> SaveChangesAsync()
-            => await _dbContext.SaveChangesAsync();
+        {
+            return await _dbContext.SaveChangesAsync();
+        }
 
         public void Dispose()
         {

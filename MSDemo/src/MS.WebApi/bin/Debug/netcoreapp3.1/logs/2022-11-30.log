@@ -1,0 +1,103 @@
+2022-11-30 09:15:55.4324 | Warn | MS.WebApi.Program | Test For Warn 
+2022-11-30 09:15:55.5847 | Error | MS.WebApi.Program | Test For Error 
+2022-11-30 09:15:55.7481 | Fatal | MS.WebApi.Program | Test For Fatal 
+2022-11-30 11:26:59.3230 | Fatal | MS.WebApi.Program | 网站启动失败 System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MS.Services.IBaseService Lifetime: Scoped ImplementationType: MS.Services.BaseService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.BaseService'.) (Error while validating the service descriptor 'ServiceType: MS.Services.IRoleService Lifetime: Scoped ImplementationType: MS.Services.RoleService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.RoleService'.) (Error while validating the service descriptor 'ServiceType: MS.Services.IBaseService Lifetime: Scoped ImplementationType: MS.Services.BaseService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.BaseService'.) (Error while validating the service descriptor 'ServiceType: MS.Services.IRoleService Lifetime: Scoped ImplementationType: MS.Services.RoleService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.RoleService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MS.Services.IBaseService Lifetime: Scoped ImplementationType: MS.Services.BaseService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.BaseService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.BaseService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MS.Services.IRoleService Lifetime: Scoped ImplementationType: MS.Services.RoleService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.RoleService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.RoleService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)<---
+ 
+ Program.Main 
+
+2022-11-30 11:27:33.1369 | Fatal | MS.WebApi.Program | 网站启动失败 System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MS.Services.IBaseService Lifetime: Scoped ImplementationType: MS.Services.BaseService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.BaseService'.) (Error while validating the service descriptor 'ServiceType: MS.Services.IRoleService Lifetime: Scoped ImplementationType: MS.Services.RoleService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.RoleService'.) (Error while validating the service descriptor 'ServiceType: MS.Services.IBaseService Lifetime: Scoped ImplementationType: MS.Services.BaseService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.BaseService'.) (Error while validating the service descriptor 'ServiceType: MS.Services.IRoleService Lifetime: Scoped ImplementationType: MS.Services.RoleService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.RoleService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MS.Services.IBaseService Lifetime: Scoped ImplementationType: MS.Services.BaseService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.BaseService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.BaseService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MS.Services.IRoleService Lifetime: Scoped ImplementationType: MS.Services.RoleService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.RoleService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.RoleService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)<---
+ 
+ Program.Main 
+
+2022-11-30 11:31:54.4497 | Fatal | MS.WebApi.Program | 网站启动失败 System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MS.Services.IBaseService Lifetime: Scoped ImplementationType: MS.Services.BaseService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.BaseService'.) (Error while validating the service descriptor 'ServiceType: MS.Services.IRoleService Lifetime: Scoped ImplementationType: MS.Services.RoleService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.RoleService'.) (Error while validating the service descriptor 'ServiceType: MS.Services.IBaseService Lifetime: Scoped ImplementationType: MS.Services.BaseService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.BaseService'.) (Error while validating the service descriptor 'ServiceType: MS.Services.IRoleService Lifetime: Scoped ImplementationType: MS.Services.RoleService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.RoleService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MS.Services.IBaseService Lifetime: Scoped ImplementationType: MS.Services.BaseService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.BaseService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.BaseService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MS.Services.IRoleService Lifetime: Scoped ImplementationType: MS.Services.RoleService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.RoleService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.RoleService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)<---
+ 
+ Program.Main 
+
+2022-11-30 11:36:01.3043 | Fatal | MS.WebApi.Program | 网站启动失败 System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MS.Services.IBaseService Lifetime: Scoped ImplementationType: MS.Services.BaseService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.BaseService'.) (Error while validating the service descriptor 'ServiceType: MS.Services.IRoleService Lifetime: Scoped ImplementationType: MS.Services.RoleService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.RoleService'.) (Error while validating the service descriptor 'ServiceType: MS.Services.IBaseService Lifetime: Scoped ImplementationType: MS.Services.BaseService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.BaseService'.) (Error while validating the service descriptor 'ServiceType: MS.Services.IRoleService Lifetime: Scoped ImplementationType: MS.Services.RoleService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.RoleService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MS.Services.IBaseService Lifetime: Scoped ImplementationType: MS.Services.BaseService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.BaseService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.BaseService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MS.Services.IRoleService Lifetime: Scoped ImplementationType: MS.Services.RoleService': Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.RoleService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'MS.UnitOfWork.UnitOfWork`1[MS.DbContexts.MSDbContext]' while attempting to activate 'MS.Services.RoleService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)<---
+ 
+ Program.Main 
+

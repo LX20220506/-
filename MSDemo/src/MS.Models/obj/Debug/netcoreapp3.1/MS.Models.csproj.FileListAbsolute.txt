@@ -9,10 +9,10 @@ C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Models\bin\Debug\netcoreapp3
 C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Models\bin\Debug\netcoreapp3.1\MS.WebCore.dll
 C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Models\bin\Debug\netcoreapp3.1\MS.Component.Jwt.pdb
 C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Models\bin\Debug\netcoreapp3.1\MS.DbContexts.pdb
+C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Models\bin\Debug\netcoreapp3.1\MS.Common.pdb
 C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Models\bin\Debug\netcoreapp3.1\MS.Entities.pdb
 C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Models\bin\Debug\netcoreapp3.1\MS.UnitOfWork.pdb
 C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Models\bin\Debug\netcoreapp3.1\MS.WebCore.pdb
-C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Models\bin\Debug\netcoreapp3.1\MS.Common.pdb
 C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Models\obj\Debug\netcoreapp3.1\MS.Models.csproj.AssemblyReference.cache
 C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Models\obj\Debug\netcoreapp3.1\MS.Models.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\1011751\Desktop\項目架構\MSDemo\src\MS.Models\obj\Debug\netcoreapp3.1\MS.Models.AssemblyInfoInputs.cache
